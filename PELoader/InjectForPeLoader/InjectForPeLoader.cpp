@@ -4,10 +4,15 @@
 #include <iostream>
 #include <windows.h>
 
+__declspec(dllimport) void  test(void);
+
 int main()
 {
     std::cout << "Injected!!!!!\n";
 	MessageBox(NULL, L"Hack", L"CSZQ", MB_OK);
+
+	test();
+
 	Sleep(3 * 0x1000);
 	return 0;
 }
