@@ -8,6 +8,6 @@ int main()
 {
     std::cout << "A Normal Day!\n";
 	MessageBox(NULL, L"normal Day", L"AAA", MB_OK);
-	Sleep(3 * 0x1000);
+	Sleep(3 * 1000);
 	return 0;
 }
