@@ -13,6 +13,6 @@ int main()
 
 	test();
 
-	Sleep(3 * 0x1000);
+	Sleep(3 * 1000);
 	return 0;
 }
